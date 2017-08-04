@@ -1,26 +1,26 @@
-
+<!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
-    <title>Tic-Tac-Toe</title>
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link rel="stylesheet" href="css/css-reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/jquery-3.2.0.min.js"></script>
-    <script src="js/main.js"></script>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Tic-Tac-Toe</title>
+     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+     <link rel="stylesheet" href="styles.css">
   </head>
 
-  <body>
-    <div class="wrapper">
+ <body>
+   <div class="wrapper">
       <header>
         <h1>Tic-Tac-Toe</h1>
       </header>
       <div class="board-container"></div>
       <div class="gameover-container"></div>
       <footer class="text-center">
-      <p><i class="fa fa-copyright" aria-hidden="true"></i>
- Designed and coded by <a id="link" href="https://github.com/7saheelahmed" target="_blank">Saheel Ahmed</a>.</p>
-  </footer>
-    </div>
+          <p><i class="fa fa-copyright" aria-hidden="true"></i>Designed and coded by <a id="link" href="https://github.com/7saheelahmed"                     target="_blank">SaheelAhmed</a>.</p>
+      </footer>
+   </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
