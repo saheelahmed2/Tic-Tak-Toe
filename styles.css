@@ -1,0 +1,135 @@
+
+/* Shared */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+
+/* Font and color */
+
+h1 {
+  color:#ffffff;
+  font-size: 80px;
+}
+
+small {
+  font-size: 10px;
+}
+
+body {
+  background-color:#222930;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+/* Header */
+
+header {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+
+/* Board */
+
+.board-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  border-collapse: collapse;
+}
+
+.board td {
+  width: 120px;
+  height: 120px;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 80px;
+  line-height: 117px;
+   color:#ffffff;
+}
+
+.board tr:first-child td {
+  border-top: 0;
+}
+
+.board tr:last-child td {
+  border-bottom: 0;
+}
+
+.board tr td:first-child {
+  border-left: 0;
+}
+
+.board tr td:last-child {
+  border-right: 0;
+}
+
+
+/* Turn Text */
+
+.turn-text {
+  display: block;
+  flex: 1 100%;
+  text-align: center;
+  font-size: 40px;
+   color:#ffffff;
+}
+
+
+/* Gameover */
+
+.gameover-container {
+  display: block;
+  height: 80px;
+  text-align: center;
+}
+
+.playagain-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 2px 2px 2px gray;
+  font-size: 30px;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.playagain-btn:hover {
+  background: #bdbebf;
+  cursor: pointer;
+}
+
+
+/* Footer */
+a{
+  color:#ffffff;
+}
+
+footer {
+  color: #ffffff;  
+  font-size: 20px;
+  text-align: center;
+}
+#link:hover{
+  color : #000;
+} 
